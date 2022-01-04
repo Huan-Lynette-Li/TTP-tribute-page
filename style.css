@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Pacifico&display=swap');
+body {
+    text-align:center;
+    line-height: 1.5;
+    color:#333;
+}
+
+#main {
+    padding: 5px;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+
+  
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: whitesmoke;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 10px 0 0 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.8rem;
+    }
+  }
+
+  .container {
+    max-width: 1100px;
+    text-align: left;
+    font-variant: small-caps;
+    color:rgb(209, 189, 9);
+
+  }
+
+  ul {
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.9;
+  }
+  
+  li {
+    margin: 20px 0;
+    font-size: x-large;
+    color: rgb(238, 238, 236);
+    font-variant: small-caps;
+    color: black;
+  }
+  
